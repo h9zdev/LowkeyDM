@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "LowkeyDM",
+  "version": "1.0",
+  "description": "End-to-end encrypt your Instagram Direct Messages.",
+  "icons": {
+    "128": "icon.svg"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.instagram.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LowkeyDM Settings",
+    "default_icon": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.instagram.com/*"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "js": [
+        "crypto_utils.js",
+        "content.js"
+      ]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "LowkeyDM@darknetcryt.crypt",
+      "strict_min_version": "109.0"
+    }
+  }
+}

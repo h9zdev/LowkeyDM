@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="32" fill="#09090B" />
+  <!-- Chat Bubble -->
+  <path d="M64 24C41.9086 24 24 38.3269 24 56C24 66.8665 31.0537 76.4678 41.5173 81.9427L36 96L52.8803 87.5599C56.3986 88.4891 60.1264 89 64 89C86.0914 89 104 74.6731 104 56C104 38.3269 86.0914 24 64 24Z" fill="url(#bubble_grad)" />
+  <!-- Keyhole -->
+  <circle cx="64" cy="48" r="8" fill="#09090B" />
+  <path d="M59 54L55 70H73L69 54H59Z" fill="#09090B" />
+  <defs>
+    <linearGradient id="bubble_grad" x1="24" y1="24" x2="104" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF0080" />
+      <stop offset="1" stop-color="#7928CA" />
+    </linearGradient>
+  </defs>
+</svg>
