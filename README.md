@@ -68,5 +68,28 @@ LowkeyDM will soon be available on the official Mozilla Add-on Store!
 
 ---
 
+## 💖 Sponsors
+
+If you find LowkeyDM useful, please consider sponsoring the project to help us keep it maintained and secure!
+
+---
+
+## ⚖️ Disclaimer
+
+**LowkeyDM is NOT affiliated with, authorized, maintained, sponsored, or endorsed by Instagram, Meta, or any of its affiliates or subsidiaries.**
+
+This extension is an independent, open-source tool. Use it at your own risk. We are not responsible for any issues arising from the use of this extension, including but not limited to account suspension or data loss.
+
+---
+
+## 🤝 Community & Compliance
+
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [License](LICENSE)
+
+---
+
 ## 📄 License
 This project is licensed under the MIT License.
